@@ -1,4 +1,4 @@
-let config = {
+module.exports = {
 	"center" : [0,0],
 	"zoom" : 2,
 	"minZoom": 2,
@@ -15,5 +15,3 @@ let config = {
 	"tiles_subdomains": ["osmc1","osmc2","osmc3"],
 	"attribution": "Map data © <a href='https://openstreetmap.org'>OpenStreetMap</a> contributors"
 }
-
-export default config
